@@ -6,14 +6,16 @@ public class main {
 		
 		System.out.println("Geben Sie ein wie viele Minuten Sie fahren");
 		Scanner scanner = new Scanner(System.in);
-		int inputMinuten = scanner.nextInt();
+		int inputGefahreneMinuten = scanner.nextInt();
 		
 		int grundpreis = 2; 
-		double variablerPreis = 0.25; 
+		double preisProMinute = 0.25; 
 		
-		double endpreis = inputMinuten * variablerPreis + grundpreis; 
+		double endpreis = inputGefahreneMinuten * preisProMinute + grundpreis; 
 		
+
 		System.out.println("Ihr Endpreis ist: " + endpreis + "€");
 		
 	}
 }
+
