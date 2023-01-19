@@ -13,9 +13,7 @@ public class main {
 		
 		double endpreis = inputMinuten * variablerPreis + grundpreis; 
 		
-		System.out.println("Ihr Endpreis ist: ");
-
-		System.out.println(endpreis + "€");
+		System.out.println("Ihr Endpreis ist: " + endpreis + "€");
 		
 	}
 }
